@@ -1,0 +1,30 @@
+.product{
+    align-items: center;
+    /* width: 50%; */
+    min-width: none !important;
+    cursor:pointer;
+}
+.productImage{
+    width: 45%;
+    padding-top: 10px;
+}
+.carBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hoverToAdd:hover{
+    background-color: aliceblue !important;
+
+}
+.hoverToAdd:hover span{
+    display: none;
+}
+.hoverToAdd:hover::before {
+    color: black;
+    content: "Add To Bag";
+}
+.remove{
+    background-color: aliceblue !important;
+    color: black;
+}
